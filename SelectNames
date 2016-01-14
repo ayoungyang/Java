@@ -3,6 +3,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+public static void main(String args[]) {
+
  /*
     String[] peoples = {"Bob", "Jill", "Tom", "Brandon"};
     List<String> names = Arrays.asList(peoples);
@@ -17,3 +19,5 @@ import java.util.Random;
         int index = new Random().nextInt(names.size());
         String anynames = names.get(index);
         System.out.println("The random name is: " + anynames + " !");
+       
+ }
